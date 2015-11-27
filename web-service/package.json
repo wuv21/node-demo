@@ -1,0 +1,25 @@
+{
+  "name": "tasks-service",
+  "version": "1.0.0",
+  "description": "Tasks Web Service demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drstearns/node-demo.git"
+  },
+  "author": "Dave Stearns",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drstearns/node-demo/issues"
+  },
+  "homepage": "https://github.com/drstearns/node-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "sqlite3": "^3.1.1"
+  }
+}

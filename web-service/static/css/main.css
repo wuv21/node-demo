@@ -1,0 +1,12 @@
+body {
+    font-size: 18px;
+}
+
+.tasks li {
+    cursor: pointer;
+}
+
+.completed-task {
+    color: #999;
+    text-decoration: line-through;
+}
