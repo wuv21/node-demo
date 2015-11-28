@@ -71,6 +71,11 @@ server.on('connection', function(socket) {
 
     //when the socket receives a complete message...
     socket.on('message', function(message) {
+        if (0 === message.length) {
+            socket.write('(type something and hit return)\n');
+            return;
+        }
+
         //if we haven't captured the name yet, treat this as the name
         if (!name) {
             //truncate name to 10 characters, just to be safe
