@@ -1,0 +1,21 @@
+{
+  "name": "chat-demo",
+  "version": "1.0.0",
+  "description": "chat demo application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drstearns/node-demo.git"
+  },
+  "author": "Dave Stearns",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drstearns/node-demo/issues"
+  },
+  "homepage": "https://github.com/drstearns/node-demo#readme",
+  "dependencies": {}
+}
