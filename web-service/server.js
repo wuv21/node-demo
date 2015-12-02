@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, 'static')));
 
 //implement API routes
 app.get('/api/tasks', function(req, res, next) {
-    db.all('select * from tasks where done == 0', function(err, rows) {
+    db.all('select rowid, * from tasks where done == 0', function(err, rows) {
         if (err) {
             return next(err);
         }
