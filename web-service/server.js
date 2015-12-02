@@ -3,6 +3,8 @@
     main server script for our task list web service
 */
 
+'use strict';
+
 //require various modules we will need
 var path = require('path');                 //path building helper library
 var express = require('express');           //express.js framework

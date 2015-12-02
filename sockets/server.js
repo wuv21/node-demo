@@ -3,6 +3,8 @@
     main server script for the socket.io chat demo
 */
 
+'use strict';
+
 //require modules we need
 var net = require('net');       //network socket module
 
