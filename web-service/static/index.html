@@ -29,7 +29,7 @@
 
     <h1>My Tasks</h1>
 
-    <p class="alert alert-danger" ng-if="error">{{error.message}}</p>
+    <p class="alert alert-danger" ng-if="error">{{error.message || error.statusText}}</p>
 
     <section>
         <form name="newTaskForm" novalidate ng-submit="addTask()">
